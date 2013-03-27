@@ -13,6 +13,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    UIApplication *myTimerApp = [UIApplication sharedApplication];
+    myTimerApp.idleTimerDisabled = YES;
     return YES;
 }
 							
