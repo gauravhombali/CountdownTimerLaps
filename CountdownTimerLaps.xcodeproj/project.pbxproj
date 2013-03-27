@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C08CB6B16781DCF00D896E5 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C08CB6A16781DCF00D896E5 /* icon.png */; };
+		6C08CB6D16781E1200D896E5 /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C08CB6C16781E1200D896E5 /* icon2.png */; };
+		6C08CB7016781E4F00D896E5 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C08CB6E16781E4F00D896E5 /* icon.png */; };
+		6C08CB7116781E4F00D896E5 /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C08CB6F16781E4F00D896E5 /* icon2.png */; };
+		6C4004DD16783B6400A2FEC2 /* Glass.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 6C4004DC16783B6400A2FEC2 /* Glass.aiff */; };
 		6C9AB2C61676AE380035C91A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C9AB2C51676AE380035C91A /* UIKit.framework */; };
 		6C9AB2C81676AE380035C91A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C9AB2C71676AE380035C91A /* Foundation.framework */; };
 		6C9AB2CA1676AE380035C91A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C9AB2C91676AE380035C91A /* CoreGraphics.framework */; };
@@ -19,9 +24,15 @@
 		6C9AB2DF1676AE380035C91A /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C9AB2DD1676AE380035C91A /* MainStoryboard_iPhone.storyboard */; };
 		6C9AB2E21676AE380035C91A /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C9AB2E01676AE380035C91A /* MainStoryboard_iPad.storyboard */; };
 		6C9AB2E51676AE380035C91A /* CountDownTimerLapsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9AB2E41676AE380035C91A /* CountDownTimerLapsViewController.m */; };
+		6CA4C8F01677ED5D005C2705 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA4C8EF1677ED5D005C2705 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C08CB6A16781DCF00D896E5 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		6C08CB6C16781E1200D896E5 /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2.png; sourceTree = "<group>"; };
+		6C08CB6E16781E4F00D896E5 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		6C08CB6F16781E4F00D896E5 /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2.png; sourceTree = "<group>"; };
+		6C4004DC16783B6400A2FEC2 /* Glass.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Glass.aiff; sourceTree = "<group>"; };
 		6C9AB2C11676AE380035C91A /* CountdownTimerLaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountdownTimerLaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C9AB2C51676AE380035C91A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6C9AB2C71676AE380035C91A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,6 +50,7 @@
 		6C9AB2E11676AE380035C91A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		6C9AB2E31676AE380035C91A /* CountDownTimerLapsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountDownTimerLapsViewController.h; sourceTree = "<group>"; };
 		6C9AB2E41676AE380035C91A /* CountDownTimerLapsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountDownTimerLapsViewController.m; sourceTree = "<group>"; };
+		6CA4C8EF1677ED5D005C2705 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CA4C8F01677ED5D005C2705 /* AVFoundation.framework in Frameworks */,
 				6C9AB2C61676AE380035C91A /* UIKit.framework in Frameworks */,
 				6C9AB2C81676AE380035C91A /* Foundation.framework in Frameworks */,
 				6C9AB2CA1676AE380035C91A /* CoreGraphics.framework in Frameworks */,
@@ -58,6 +71,8 @@
 		6C9AB2B61676AE380035C91A = {
 			isa = PBXGroup;
 			children = (
+				6C08CB6C16781E1200D896E5 /* icon2.png */,
+				6C08CB6A16781DCF00D896E5 /* icon.png */,
 				6C9AB2CB1676AE380035C91A /* CountdownTimerLaps */,
 				6C9AB2C41676AE380035C91A /* Frameworks */,
 				6C9AB2C21676AE380035C91A /* Products */,
@@ -75,6 +90,7 @@
 		6C9AB2C41676AE380035C91A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6CA4C8EF1677ED5D005C2705 /* AVFoundation.framework */,
 				6C9AB2C51676AE380035C91A /* UIKit.framework */,
 				6C9AB2C71676AE380035C91A /* Foundation.framework */,
 				6C9AB2C91676AE380035C91A /* CoreGraphics.framework */,
@@ -99,6 +115,9 @@
 		6C9AB2CC1676AE380035C91A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6C4004DC16783B6400A2FEC2 /* Glass.aiff */,
+				6C08CB6E16781E4F00D896E5 /* icon.png */,
+				6C08CB6F16781E4F00D896E5 /* icon2.png */,
 				6C9AB2CD1676AE380035C91A /* CountdownTimerLaps-Info.plist */,
 				6C9AB2CE1676AE380035C91A /* InfoPlist.strings */,
 				6C9AB2D11676AE380035C91A /* main.m */,
@@ -168,6 +187,11 @@
 				6C9AB2DC1676AE380035C91A /* Default-568h@2x.png in Resources */,
 				6C9AB2DF1676AE380035C91A /* MainStoryboard_iPhone.storyboard in Resources */,
 				6C9AB2E21676AE380035C91A /* MainStoryboard_iPad.storyboard in Resources */,
+				6C08CB6B16781DCF00D896E5 /* icon.png in Resources */,
+				6C08CB6D16781E1200D896E5 /* icon2.png in Resources */,
+				6C08CB7016781E4F00D896E5 /* icon.png in Resources */,
+				6C08CB7116781E4F00D896E5 /* icon2.png in Resources */,
+				6C4004DD16783B6400A2FEC2 /* Glass.aiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,7 +247,8 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Gaurav Hombali (QRCFMCWE42)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Gaurav Hombali (QRCFMCWE42)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -236,8 +261,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "495603ED-2217-4401-9850-2901E2AE11B1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "495603ED-2217-4401-9850-2901E2AE11B1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -252,14 +279,17 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Gaurav Hombali (QRCFMCWE42)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Gaurav Hombali (QRCFMCWE42)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "495603ED-2217-4401-9850-2901E2AE11B1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "495603ED-2217-4401-9850-2901E2AE11B1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -269,10 +299,16 @@
 		6C9AB2E91676AE380035C91A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CountdownTimerLaps/CountdownTimerLaps-Prefix.pch";
 				INFOPLIST_FILE = "CountdownTimerLaps/CountdownTimerLaps-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -280,10 +316,16 @@
 		6C9AB2EA1676AE380035C91A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CountdownTimerLaps/CountdownTimerLaps-Prefix.pch";
 				INFOPLIST_FILE = "CountdownTimerLaps/CountdownTimerLaps-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -307,6 +349,7 @@
 				6C9AB2EA1676AE380035C91A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
